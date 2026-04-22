@@ -1,0 +1,13 @@
+[package]
+name = "phone"
+authors = ["XLhinares <xlhinares@proton.me>"]
+version = "1.1.0"
+description = "ADB & scrcpy utility functions.\nBe sure to enable wireless debugging in your device's developer settings."
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.54", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+csv = "1.4.0"
+regex = "1.12.2"
+clap_complete = "4.5.65"
